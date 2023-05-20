@@ -1,0 +1,60 @@
+body{
+    background-position: center;
+    background-size: cover;
+}
+.heading{
+    font-size: 23px;
+    margin: 0px;
+    width: 100%;
+}
+.note{
+    font-size: 15px;
+    color: black;
+}
+.div_speed{
+    float: left;
+}
+.div_speed_img{
+    width:200px;
+    border-radius: 100px;
+}
+#speed{
+    font-size: 23px;
+    margin: 15px;
+}
+.div_volume{
+    float: right;
+}
+.div_volume_img{
+    width:200px;
+    border-radius: 100px;
+}
+#volume{
+    font-size: 23px;
+    margin: 15px;
+}
+.play_button{
+    width:130px;
+    font-size: 25px;
+}
+canvas{
+    border:5px solid salmon;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-top: 50px;
+}
+@keyframes example{
+    from{box-shadow:1px 1px 38px purple;}
+    to{box-shadow: 1px 1px 3px palevioletred;}
+}
+.copy_right_footer{
+    position: fixed;
+    color: black;
+    background-color: aquamarine;
+    width:100%;
+    bottom:0;
+    line-height: 3;
+    text-align: center;
+}
